@@ -1,0 +1,6 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 2H6V0H2C0.896 0 0 0.897 0 2V6H2V2Z" transform="translate(7 9) rotate(180)" fill="white"/>
+<path d="M4 0H0V2H4V6H6V2C6 0.897 5.104 0 4 0Z" transform="translate(23 9) rotate(180)" fill="white"/>
+<path d="M2 0H0V4C0 5.104 0.896 6 2 6H6V4H2V0Z" transform="translate(7 21) rotate(180)" fill="white"/>
+<path d="M4 4H0V6H4C5.104 6 6 5.104 6 4V0H4V4Z" transform="translate(23 21) rotate(180)" fill="white"/>
+</svg>

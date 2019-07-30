@@ -38,6 +38,12 @@
   .#{$prefix}-ui-titlebar {
     > .#{$prefix}-container-wrapper {
       display: flex;
+      padding-left: 0;
+      padding-right: 0;
+
+      > * {
+        margin: 0 .25em;
+      }
 
       .#{$prefix}-ui-label {
         display: inline;
@@ -61,7 +67,7 @@
   // Decrease huge play button size and replace icon with normal play icon
   .#{$prefix}-ui-hugeplaybacktogglebutton {
     .#{$prefix}-image {
-      background-image: svg('assets/skin-modern/images/play.svg');
+      background-image: svg('assets/skin-custom/images/play.svg');
       background-size: 4em;
     }
   }
@@ -73,7 +79,7 @@
       &.#{$prefix}-on {
         .#{$prefix}-image {
           animation: none;
-          background-image: svg('assets/skin-modern/images/pause.svg');
+          background-image: svg('assets/skin-custom/images/pause.svg');
           visibility: visible;
         }
       }
@@ -94,7 +100,8 @@
     .#{$prefix}-ui-errormessage-overlay,
     .#{$prefix}-ui-buffering-overlay,
     .#{$prefix}-ui-subtitle-overlay,
-    .#{$prefix}-ui-cast-status-overlay {
+    .#{$prefix}-ui-cast-status-overlay,
+    .#{$prefix}-ui-ads-status {
       font-size: .6em;
     }
   }
@@ -107,7 +114,8 @@
     .#{$prefix}-ui-errormessage-overlay,
     .#{$prefix}-ui-buffering-overlay,
     .#{$prefix}-ui-subtitle-overlay,
-    .#{$prefix}-ui-cast-status-overlay {
+    .#{$prefix}-ui-cast-status-overlay,
+    .#{$prefix}-ui-ads-status {
       font-size: .8em;
     }
   }

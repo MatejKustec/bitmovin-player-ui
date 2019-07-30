@@ -110,11 +110,13 @@
 }
 
 @mixin svg-icon-shadow {
-  filter: drop-shadow(0 0 1px $color-primary);
+  opacity: 1;
+  // filter: drop-shadow(0 0 1px $color-primary);
 }
 
 @mixin svg-icon-on-shadow {
-  filter: drop-shadow(0 0 1px $color-highlight);
+  opacity: 1;
+  // filter: drop-shadow(0 0 1px $color-highlight);
 }
 
 @mixin seekbar-position-marker($marker-dimension) {

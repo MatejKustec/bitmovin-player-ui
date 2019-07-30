@@ -14,7 +14,9 @@
   font-size: 1em;
   height: 1.5em;
   min-width: 1.5em;
-  padding: .25em;
+  opacity: .9;
+  padding: 0;
+  transition: opacity $animation-duration-short ease;
 
   .#{$prefix}-label {
     color: $color-primary;
